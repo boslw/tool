@@ -1,0 +1,86 @@
+<html>
+<head>
+    <title>随机数生成器</title>
+    <style>
+        body {
+            background: #f0f0e7;
+            margin-top: 0px;
+        }
+
+        body,
+        table,
+        div {
+            font-size: 1.1rem;
+            line-height: 1.8rem;
+        }
+
+        table {
+            cursor: default;
+        }
+
+        input,
+        select {
+            height: 1.8rem;
+            font-size: 1.1rem;
+        }
+
+        div {
+            text-align: left;
+            background-color: #f0f0e7;
+        }
+    </style>
+
+    <!-- <base target=_top> -->
+</head>
+
+<body>
+
+    <div style="margin-top:1rem;">
+        <a href="/">返回首页</a>
+    </div>
+    <br>
+    <center>
+        <div style="width:90%">
+            <div style="font-size:2rem;">随机数生成器</div>
+            <br>
+            <div>
+
+                生成长度：<input id=sjslen type="number" value="32">
+                <br>
+                选择元素：
+                <br>
+                <input type="checkbox" id=sel_0 value="0123456789">数字 0123456789
+                <br>
+                <input type="checkbox" id=sel_1 value="abcdefghijklmnopqrstuvwxyz">小写字母 abcdefghijklmnopqrstuvwxyz
+                <br>
+                <input type="checkbox" id=sel_2 value="ABCDEFGHIJKLMNOPQRSTUVWXYZ">大写字母 ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                <br>
+                <input type="checkbox" id=sel_3 value="~!@#$%^&amp;*()_+">特殊字符 ~!@#$%^&amp;*()_+
+                <br>
+                <input type=button value="生成" onclick=gen()></input>
+                <br>
+
+                <!-- <input> -->
+                <div id=result style="font-size:2rem;word-break: break-all; word-wrap:break-word;"></div>
+<!-- </input> -->
+            </div>
+
+            <script src=sjs.js></script>
+
+
+        </div>
+        <br>
+
+
+
+
+    </center>
+
+
+
+    <br>
+    <br>
+
+</body>
+
+</html>
