@@ -1,0 +1,85 @@
+<svg width="800" height="300" xmlns="http://www.w3.org/2000/svg">
+ <title>Drawing</title>
+ <g>
+  <title>Layer 1</title>
+  <rect filter="url(#svg_3_blur)" id="svg_3" height="225" width="274" y="54" x="3" stroke="#000" fill="#9ACEE6"/>
+  <rect filter="url(#svg_2_blur)" stroke-width="0" id="svg_2" height="169" width="492" y="71" x="285" stroke="#000" fill="#CFCA6D"/>
+  <rect stroke="#000" fill="#B1FFFF" x="2.00448" y="2.0054" width="288.01434" height="52.00171" id="svg_29"/>
+  <text transform="matrix(3.45986 0 0 1.53377 -92.7552 -33.0022)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" id="svg_90" y="48.29378" x="27.91759" fill="#000000" font-weight="bold" font-style="normal" stroke-dasharray="5,2,2,2" filter="url(#svg_90_blur)">KK游戏</text>
+  <text transform="matrix(2.60605 0 0 1.53377 -64.4498 -33.0022)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" id="svg_1" y="48.29405" x="28.80857" fill="#000000" font-weight="bold" font-style="normal" stroke-dasharray="5,2,2,2" filter="url(#svg_1_blur)">KK游戏</text>
+  <line fill="none" stroke="#000" x1="5.02845" y1="58.01107" x2="33.02845" y2="269.01107" id="svg_5" stroke-width="NaN"/>
+  <line fill="none" stroke="#000" x1="24.02845" y1="58.01107" x2="52.02845" y2="269.01107" id="svg_6" stroke-width="NaN"/>
+  <line fill="none" stroke="#000" x1="38.02845" y1="158.0112" x2="122.02845" y2="263.0112" id="svg_8" stroke-width="NaN"/>
+  <line fill="none" stroke="#000" x1="38.02845" y1="142.01107" x2="122.02845" y2="247.01107" id="svg_9" stroke-width="NaN"/>
+  <line fill="none" stroke="#000" x1="37.02845" y1="134.01107" x2="122.02845" y2="68.01107" id="svg_11" stroke-width="NaN"/>
+  <line fill="none" stroke="#000" x1="33.02845" y1="120.01107" x2="118.02845" y2="54.01107" id="svg_12" stroke-width="NaN"/>
+  <line fill="none" stroke="#000" x1="147.04518" y1="63.0112" x2="175.04518" y2="274.0112" id="svg_13"/>
+  <line fill="none" stroke="#000" x1="165.04518" y1="63.0112" x2="193.04518" y2="274.0112" id="svg_14"/>
+  <line fill="none" stroke="#000" x1="175.04518" y1="133.0112" x2="260.04518" y2="67.0112" id="svg_15"/>
+  <line fill="none" stroke="#000" x1="173.04518" y1="114.0112" x2="258.04518" y2="48.0112" id="svg_16"/>
+  <path fill="none" stroke="#000" opacity="undefined" d="m176.04518,165.0112l84,105" id="svg_17"/>
+  <line fill="none" stroke="#000" x1="176.04518" y1="150.0112" x2="260.04518" y2="255.0112" id="svg_18"/>
+  <path stroke="#000" fill="none" opacity="NaN" d="m368.98539,87.13988l-59.10609,3.92699l0,45.81493l63.93109,-6.54498l10.85622,-56.2869l-91.67476,3.92699l6.03124,90.32084l86.84976,-13.08997l7.23748,-74.61288l16.88746,0l-4.82498,146.60775l-82.02478,7.85398l-2.4125,-19.63497l69.96233,-6.54498" id="svg_25"/>
+  <path stroke="#000" fill="none" opacity="NaN" d="m477.23602,74.03937l-58.22311,152.00751l33.04554,-61.48617l42.48713,5.12384l31.47194,47.82258l-37.76634,-134.92801l-29.89836,68.31799l36.19273,0" id="svg_26"/>
+  <path stroke="#000" fill="none" opacity="NaN" d="m528.02952,210.17302l43.01095,-130.13984c6.42693,29.19024 12.85385,58.38048 19.28077,87.57073l11.86508,-83.92195l34.85371,131.3561l-8.15724,0l-22.24705,-88.78699l-8.15724,65.67805l-18.5392,0l-5.93254,-64.46179l-45.97723,82.70569z" id="svg_27"/>
+  <path stroke="#000" fill="none" opacity="NaN" d="m648.05008,90.02212l111.96557,2.11779l2.01739,10.58899l-91.79161,3.1767l3.02609,24.35466l91.79161,1.05891l-4.03479,24.35466l-83.722,-5.29448l7.0609,31.76696l76.66112,16.94239l-6.05218,16.94239l-100.86988,-8.47118l-6.05218,-117.53775l-0.00005,-0.00002z" id="svg_28"/>
+  <line fill="none" stroke="#000" x1="7.02845" y1="59.01107" x2="52.02845" y2="271.01107" id="svg_34" stroke-width="NaN"/>
+  <line fill="none" stroke="#000" x1="117.02845" y1="57.01107" x2="40.02845" y2="131.01107" id="svg_35" stroke-width="NaN"/>
+  <line fill="none" stroke="#000" x1="121.02845" y1="263.01107" x2="40.02845" y2="146.01107" id="svg_36" stroke-width="NaN"/>
+  <line fill="none" stroke="#000" x1="147.04518" y1="63.0112" x2="192.04518" y2="276.0112" id="svg_37"/>
+  <line fill="none" stroke="#000" x1="258.04518" y1="50.0112" x2="176.04518" y2="131.0112" id="svg_38"/>
+  <line fill="none" stroke="#000" x1="261.04518" y1="270.0112" x2="177.04518" y2="152.0112" id="svg_39"/>
+  <line fill="none" stroke="#000" x1="7.02819" y1="58.01107" x2="35.02819" y2="269.01107" id="svg_44" stroke-width="NaN"/>
+  <line fill="none" stroke="#000" x1="9.02793" y1="58.01107" x2="37.02793" y2="269.01107" id="svg_46" stroke-width="NaN"/>
+  <line fill="none" stroke="#000" x1="11.02766" y1="58.01107" x2="39.02766" y2="269.01107" id="svg_47" stroke-width="NaN"/>
+  <line fill="none" stroke="#000" x1="13.0274" y1="58.01107" x2="41.0274" y2="269.01107" id="svg_48" stroke-width="NaN"/>
+  <line fill="none" stroke="#000" x1="15.02714" y1="58.01107" x2="43.02714" y2="269.01107" id="svg_49" stroke-width="NaN"/>
+  <line fill="none" stroke="#000" x1="17.02687" y1="58.01107" x2="45.02687" y2="269.01107" id="svg_50" stroke-width="NaN"/>
+  <line fill="none" stroke="#000" x1="19.02661" y1="58.01107" x2="47.02661" y2="269.01107" id="svg_51" stroke-width="NaN"/>
+  <line fill="none" stroke="#000" x1="21.02635" y1="58.01107" x2="49.02635" y2="269.01107" id="svg_52" stroke-width="NaN"/>
+  <line fill="none" stroke="#000" x1="23.02608" y1="58.01107" x2="51.02608" y2="269.01107" id="svg_53" stroke-width="NaN"/>
+  <line fill="none" stroke="#000" x1="149.04492" y1="63.0112" x2="177.04492" y2="274.0112" id="svg_54"/>
+  <line fill="none" stroke="#000" x1="151.04466" y1="63.0112" x2="179.04466" y2="274.0112" id="svg_55"/>
+  <line fill="none" stroke="#000" x1="153.04439" y1="63.0112" x2="181.04439" y2="274.0112" id="svg_56"/>
+  <line fill="none" stroke="#000" x1="155.04413" y1="63.0112" x2="183.04413" y2="274.0112" id="svg_57"/>
+  <line fill="none" stroke="#000" x1="157.04386" y1="63.0112" x2="185.04386" y2="274.0112" id="svg_58"/>
+  <line fill="none" stroke="#000" x1="159.0436" y1="63.0112" x2="187.0436" y2="274.0112" id="svg_59"/>
+  <line fill="none" stroke="#000" x1="161.04334" y1="63.0112" x2="189.04334" y2="274.0112" id="svg_60"/>
+  <line fill="none" stroke="#000" x1="163.04307" y1="63.0112" x2="191.04307" y2="274.0112" id="svg_61"/>
+  <line fill="none" stroke="#000" x1="256.04545" y1="50.0112" x2="174.04545" y2="131.0112" id="svg_62"/>
+  <line fill="none" stroke="#000" x1="38.02845" y1="156.01146" x2="122.02845" y2="261.01146" id="svg_65" stroke-width="NaN"/>
+  <line fill="none" stroke="#000" x1="38.02845" y1="152.01199" x2="122.02845" y2="257.01199" id="svg_66" stroke-width="NaN"/>
+  <line fill="none" stroke="#000" x1="38.02845" y1="156.01146" x2="122.02845" y2="261.01146" id="svg_67" stroke-width="NaN"/>
+  <line fill="none" stroke="#000" x1="38.02845" y1="147.01265" x2="122.02845" y2="252.01265" id="svg_68" stroke-width="NaN"/>
+  <line fill="none" stroke="#000" x1="33.02845" y1="123.01067" x2="118.02845" y2="57.01067" id="svg_69" stroke-width="NaN"/>
+  <line fill="none" stroke="#000" x1="33.02845" y1="126.01027" x2="118.02845" y2="60.01027" id="svg_70" stroke-width="NaN"/>
+  <line fill="none" stroke="#000" x1="33.02845" y1="129.00988" x2="118.02845" y2="63.00988" id="svg_72" stroke-width="NaN"/>
+  <line fill="none" stroke="#000" x1="33.02845" y1="132.00948" x2="118.02845" y2="66.00948" id="svg_73" stroke-width="NaN"/>
+  <line fill="none" stroke="#000" x1="33.02845" y1="135.00909" x2="118.02845" y2="69.00909" id="svg_74" stroke-width="NaN"/>
+  <line fill="none" stroke="#000" x1="173.04518" y1="117.0108" x2="258.04518" y2="51.0108" id="svg_75"/>
+  <line fill="none" stroke="#000" x1="173.04518" y1="120.01041" x2="258.04518" y2="54.01041" id="svg_76"/>
+  <line fill="none" stroke="#000" x1="173.04518" y1="123.01001" x2="258.04518" y2="57.01001" id="svg_77"/>
+  <line fill="none" stroke="#000" x1="173.04518" y1="126.00962" x2="258.04518" y2="60.00962" id="svg_78"/>
+  <line fill="none" stroke="#000" x1="173.04518" y1="129.00922" x2="258.04518" y2="63.00922" id="svg_79"/>
+  <line fill="none" stroke="#000" x1="173.04518" y1="132.00883" x2="258.04518" y2="66.00883" id="svg_80"/>
+  <path fill="none" stroke="#000" opacity="undefined" d="m176.04518,162.0116l84,105" id="svg_81"/>
+  <path fill="none" stroke="#000" opacity="undefined" d="m176.04518,159.012l84,105" id="svg_82"/>
+  <path fill="none" stroke="#000" opacity="undefined" d="m178.04518,148.0124l84,105" id="svg_83"/>
+  <path fill="none" stroke="#000" opacity="undefined" d="m176.04518,153.0128l84,105" id="svg_84"/>
+  <path transform="rotate(20 255.461 23.7839)" fill="#000000" stroke-dasharray="5,2,2,2" d="m225.3223,17.15269l23.78804,0l7.35068,-21.4593l7.35069,21.4593l23.78804,0l-19.24489,13.26243l7.35106,21.45929l-19.2449,-13.26278l-19.24489,13.26278l7.35107,-21.45929l-19.2449,-13.26243z" id="svg_89" stroke="#000"/>
+ </g>
+ <defs>
+  <filter id="svg_1_blur" x="-50%" y="-50%" width="200%" height="200%">
+   <feGaussianBlur in="SourceGraphic" stdDeviation="0.1"/>
+  </filter>
+  <filter id="svg_90_blur" x="-50%" y="-50%" width="200%" height="200%">
+   <feGaussianBlur in="SourceGraphic" stdDeviation="8"/>
+  </filter>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_2_blur">
+   <feGaussianBlur stdDeviation="9" in="SourceGraphic"/>
+  </filter>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_3_blur">
+   <feGaussianBlur stdDeviation="10" in="SourceGraphic"/>
+  </filter>
+ </defs>
+</svg>

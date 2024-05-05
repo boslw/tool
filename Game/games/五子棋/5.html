@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>五子棋对战</title>
+    <link rel="stylesheet" type="text/css" href="gomoku/css.css" />
+
+</head>
+
+<body>
+    <div style="height: 20px;line-height: 20px;top: 6px;right: 5px;"><a href=../page/小游戏.html>返回主页</a></div>
+    <center>
+    <div class="box">
+        <div class="topbar">
+            <div class="top-bt-box">
+                <div class="top-title"><a title="主页" href="../index.html">五子棋对战</a></div>
+                <div class="topbt">
+                    <button id='game-rst'>重新开始</button>
+                    <button id='start-ai'>开始, 电脑先手</button>
+                    <div>
+                        <span>玩家选择</span>
+                        <select id='user-select'>
+                            <option id="select-w" selected='selected' value='white'>白子</option>
+                            <option id="select-b" value='black'>黑子</option>
+                        </select>
+                    </div>
+                   
+                </div>
+            </div>
+            <div><b id='win-display'></b></div>
+            <div class="toptips">
+                <span>玩家&nbsp;&nbsp;<i id='tips-man' class="man-stone"></i></span>
+                <span>电脑&nbsp;&nbsp;<i id='tips-ai' class="ai-stone"></i></span> 
+            </div>
+        </div>
+        <div class='desk'>
+            <div id='border'>
+                <div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                </div>
+                <div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                </div>
+                <div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                </div>
+                <div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                </div>
+                <div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                </div>
+                <div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                </div>
+                <div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                </div>
+                <div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                </div>
+                <div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                </div>
+                <div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                </div>
+                <div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                </div>
+                <div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                </div>
+                <div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                </div>
+                <div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                </div>
+                <div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                    <div><i></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='gomoku/js.js'></script>
+    </center>
+</body>
+
+</html>

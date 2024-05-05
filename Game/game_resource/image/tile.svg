@@ -1,0 +1,11 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+ <title>Drawing</title>
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <path id="svg_8" d="m0.5,-1l299,0l0,300l-299,0l0,-300z" opacity="undefined" stroke-dasharray="5,2,2,2,2,2" stroke-width="7" stroke="#000" fill="#529D94"/>
+  <path transform="rotate(-23 214 142.5)" id="svg_4" d="m187,52c-1,0 -29,178 -29,178c0,0 19,3 19,3c0,0 18,-81 18,-81c0,0 29,77 29,77c0,0 22,-5 22,-5c0,0 -34,-74 -34,-74c0,0 57,1 57,1c0,0 1,-16 1,-16c0,0 -65,-6 -65,-6c0,0 1,-71 1,-71c0,0 -18,-6 -19,-6z" opacity="NaN" stroke="#000" fill="none"/>
+  <path transform="rotate(-23 89 142.5)" id="svg_5" d="m62,52c-1,0 -29,178 -29,178c0,0 19,3 19,3c0,0 18,-81 18,-81c0,0 29,77 29,77c0,0 22,-5 22,-5c0,0 -34,-74 -34,-74c0,0 57,1 57,1c0,0 1,-16 1,-16c0,0 -65,-6 -65,-6c0,0 1,-71 1,-71c0,0 -18,-6 -19,-6z" opacity="NaN" stroke="#000" fill="none"/>
+  <path transform="rotate(-23 91 140.5)" stroke-dasharray="2,2" id="svg_6" d="m64,50c-1,0 -29,178 -29,178c0,0 19,3 19,3c0,0 18,-81 18,-81c0,0 29,77 29,77c0,0 22,-5 22,-5c0,0 -34,-74 -34,-74c0,0 57,1 57,1c0,0 1,-16 1,-16c0,0 -65,-6 -65,-6c0,0 1,-71 1,-71c0,0 -18,-6 -19,-6z" opacity="NaN" stroke="#000" fill="none"/>
+  <path transform="rotate(-23 216 140.5)" stroke-dasharray="5,5" id="svg_7" d="m189,50c-1,0 -29,178 -29,178c0,0 19,3 19,3c0,0 18,-81 18,-81c0,0 29,77 29,77c0,0 22,-5 22,-5c0,0 -34,-74 -34,-74c0,0 57,1 57,1c0,0 1,-16 1,-16c0,0 -65,-6 -65,-6c0,0 1,-71 1,-71c0,0 -18,-6 -19,-6z" opacity="NaN" stroke="#000" fill="none"/>
+ </g>
+</svg>

@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>汉诺塔游戏</title>
+    <meta http-equiv=Content-Type content="text/html;charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="hanoi/CSS.css" />
+
+</head>
+
+<body>
+    <div style="height: 20px;line-height: 20px;top: 6px;right: 5px;"><a href=../page/小游戏.html>返回主页</a></div>
+    <div class="top-bar">
+        <span><b>操作说明：</b>点击柱子附近的区域会自动选中最上边的盘子，此时柱子附近颜色变为绿色，再点击需要放下的柱子区域完成移动。红色说明选中区域为空，或者放下操作违规（必须上小下大）。</span>
+        <!-- <a href='index.html'>返回主页</a> -->
+    </div>
+
+    <div id="window">
+        <div class="game_area">
+            <canvas onmousedown="canvas_mouse_down(event)" onmouseup="canvas_mouse_up()" id="canvas" width="600"
+                height="400"></canvas>
+            <div class="desk">
+                <div>A</div>
+                <div>B</div>
+                <div>C</div>
+            </div>
+        </div>
+        <div id="tools">
+            <div id="tools_list">
+                <div id="floor_select">
+                    <div class="floor" onmouseover="info()" title="" id="floor">层数(<span
+                            style="color : orange">?</span>) : </div>
+                    <input class="floor" id="input_floor" type="number" min="1" , max="13" , step="1" value="8" />
+                    <button class="floor" id="refresh">重设</button>
+                </div>
+                <form id="game_mode">
+                    <input name="game_select" type="radio">单步
+                    <input name="game_select" type="radio">演示
+                    <input name="game_select" type="radio" checked="checked">游戏
+                </form>
+            </div>
+            <div id="bt_run">开始</div>
+        </div>
+    </div>
+
+    <script src="hanoi/Js-test.js"></script>
+
+</body>
+
+</html>

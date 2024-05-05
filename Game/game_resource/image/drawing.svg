@@ -1,0 +1,82 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+ <title>Drawing</title>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="#000" id="svg_29" height="52.00171" width="107.01435" y="1.0054" x="2.00448" fill="#B1FFFF"/>
+  <text filter="url(#svg_1_blur)" stroke-dasharray="5,2,2,2" font-style="normal" font-weight="bold" fill="#000000" x="28.80857" y="47.64206" id="svg_1" font-size="24" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" stroke="#000" transform="matrix(1.16382 0 0 1.53377 -26.6356 -33.0022)">KK游戏</text>
+  <line stroke-width="NaN" id="svg_5" y2="269.01107" x2="33.02845" y1="58.01107" x1="5.02845" stroke="#000" fill="none"/>
+  <line stroke-width="NaN" id="svg_6" y2="269.01107" x2="52.02845" y1="58.01107" x1="24.02845" stroke="#000" fill="none"/>
+  <line stroke-width="NaN" id="svg_8" y2="263.0112" x2="122.02845" y1="158.0112" x1="38.02845" stroke="#000" fill="none"/>
+  <line stroke-width="NaN" id="svg_9" y2="247.01107" x2="122.02845" y1="142.01107" x1="38.02845" stroke="#000" fill="none"/>
+  <line stroke-width="NaN" id="svg_11" y2="68.01107" x2="122.02845" y1="134.01107" x1="37.02845" stroke="#000" fill="none"/>
+  <line stroke-width="NaN" id="svg_12" y2="54.01107" x2="118.02845" y1="120.01107" x1="33.02845" stroke="#000" fill="none"/>
+  <line id="svg_13" y2="268.0112" x2="112.04518" y1="57.0112" x1="84.04518" stroke="#000" fill="none"/>
+  <line id="svg_14" y2="268.0112" x2="130.04518" y1="57.0112" x1="102.04518" stroke="#000" fill="none"/>
+  <line id="svg_15" y2="67.0112" x2="197.04518" y1="133.0112" x1="112.04518" stroke="#000" fill="none"/>
+  <line id="svg_16" y2="48.0112" x2="195.04518" y1="114.0112" x1="110.04518" stroke="#000" fill="none"/>
+  <path id="svg_17" d="m115.04518,158.0112l84,105" opacity="undefined" stroke="#000" fill="none"/>
+  <line id="svg_18" y2="248.0112" x2="199.04518" y1="143.0112" x1="115.04518" stroke="#000" fill="none"/>
+  <path stroke="#000" id="svg_25" d="m237.7689,9.90411l-26.27103,1.75626l0,20.48972l28.41561,-2.9271l4.82529,-25.17308l-40.74691,1.75626l2.68072,40.39401l38.60233,-5.8542l3.21686,-33.36897l7.50601,0l-2.14457,65.56709l-36.45776,3.51252l-1.07229,-8.78131l31.09633,-2.9271" opacity="NaN" fill="none"/>
+  <path stroke="#000" id="svg_26" d="m234.2066,82.03937l-33.19369,61.00751l18.83966,-24.67719l24.22242,2.05643l17.94253,19.19337l-21.53104,-54.15273l-17.04541,27.41911l20.63391,0" opacity="NaN" fill="none"/>
+  <path stroke="#000" id="svg_27" d="m200.0295,204.37121l26.43953,-71.33803c3.95074,16.00105 7.90147,32.0021 11.8522,48.00316l7.29366,-46.00303l21.42514,72.00474l-5.01439,0l-13.67562,-48.66987l-5.01439,36.00237l-11.39635,0l-3.64683,-35.33566l-28.26295,45.33632z" opacity="NaN" fill="none"/>
+  <path stroke="#000" id="svg_28" d="m216.05006,213.02212l44.98283,0.85729l0.8105,4.28647l-36.87782,1.28594l1.21575,9.85887l36.87782,0.42865l-1.621,9.85887l-33.63581,-2.14323l2.83676,12.8594l30.79906,6.85835l-2.4315,6.85835l-40.52507,-3.42917l-2.4315,-47.57978z" opacity="NaN" fill="none"/>
+  <path transform="rotate(20 151.461 26.7839)" stroke="#000" id="svg_31" d="m120.32243,20.15269l23.78804,0l7.35069,-21.4593l7.35069,21.4593l23.78803,0l-19.24489,13.26242l7.35107,21.4593l-19.2449,-13.26278l-19.2449,13.26278l7.35107,-21.4593l-19.2449,-13.26242z" stroke-dasharray="5,2,2,2" fill="#000000"/>
+  <line stroke-width="NaN" id="svg_34" y2="271.01107" x2="52.02845" y1="59.01107" x1="7.02845" stroke="#000" fill="none"/>
+  <line stroke-width="NaN" id="svg_35" y2="131.01107" x2="40.02845" y1="57.01107" x1="117.02845" stroke="#000" fill="none"/>
+  <line stroke-width="NaN" id="svg_36" y2="146.01107" x2="40.02845" y1="263.01107" x1="121.02845" stroke="#000" fill="none"/>
+  <line id="svg_37" y2="270.0112" x2="129.04518" y1="57.0112" x1="84.04518" stroke="#000" fill="none"/>
+  <line id="svg_38" y2="131.0112" x2="113.04518" y1="50.0112" x1="195.04518" stroke="#000" fill="none"/>
+  <line id="svg_39" y2="145.0112" x2="116.04518" y1="263.0112" x1="200.04518" stroke="#000" fill="none"/>
+  <line stroke-width="NaN" id="svg_44" y2="269.01107" x2="35.02819" y1="58.01107" x1="7.02819" stroke="#000" fill="none"/>
+  <line stroke-width="NaN" id="svg_46" y2="269.01107" x2="37.02793" y1="58.01107" x1="9.02793" stroke="#000" fill="none"/>
+  <line stroke-width="NaN" id="svg_47" y2="269.01107" x2="39.02766" y1="58.01107" x1="11.02766" stroke="#000" fill="none"/>
+  <line stroke-width="NaN" id="svg_48" y2="269.01107" x2="41.0274" y1="58.01107" x1="13.0274" stroke="#000" fill="none"/>
+  <line stroke-width="NaN" id="svg_49" y2="269.01107" x2="43.02714" y1="58.01107" x1="15.02714" stroke="#000" fill="none"/>
+  <line stroke-width="NaN" id="svg_50" y2="269.01107" x2="45.02687" y1="58.01107" x1="17.02687" stroke="#000" fill="none"/>
+  <line stroke-width="NaN" id="svg_51" y2="269.01107" x2="47.02661" y1="58.01107" x1="19.02661" stroke="#000" fill="none"/>
+  <line stroke-width="NaN" id="svg_52" y2="269.01107" x2="49.02635" y1="58.01107" x1="21.02635" stroke="#000" fill="none"/>
+  <line stroke-width="NaN" id="svg_53" y2="269.01107" x2="51.02608" y1="58.01107" x1="23.02608" stroke="#000" fill="none"/>
+  <line id="svg_54" y2="268.0112" x2="114.04492" y1="57.0112" x1="86.04492" stroke="#000" fill="none"/>
+  <line id="svg_55" y2="268.0112" x2="116.04466" y1="57.0112" x1="88.04466" stroke="#000" fill="none"/>
+  <line id="svg_56" y2="268.0112" x2="118.04439" y1="57.0112" x1="90.04439" stroke="#000" fill="none"/>
+  <line id="svg_57" y2="268.0112" x2="120.04413" y1="57.0112" x1="92.04413" stroke="#000" fill="none"/>
+  <line id="svg_58" y2="268.0112" x2="122.04386" y1="57.0112" x1="94.04386" stroke="#000" fill="none"/>
+  <line id="svg_59" y2="268.0112" x2="124.0436" y1="57.0112" x1="96.0436" stroke="#000" fill="none"/>
+  <line id="svg_60" y2="268.0112" x2="126.04334" y1="57.0112" x1="98.04334" stroke="#000" fill="none"/>
+  <line id="svg_61" y2="268.0112" x2="128.04307" y1="57.0112" x1="100.04307" stroke="#000" fill="none"/>
+  <line id="svg_62" y2="131.0112" x2="111.04545" y1="50.0112" x1="193.04545" stroke="#000" fill="none"/>
+  <line stroke-width="NaN" id="svg_65" y2="261.01146" x2="122.02845" y1="156.01146" x1="38.02845" stroke="#000" fill="none"/>
+  <line stroke-width="NaN" id="svg_66" y2="257.01199" x2="122.02845" y1="152.01199" x1="38.02845" stroke="#000" fill="none"/>
+  <line stroke-width="NaN" id="svg_67" y2="261.01146" x2="122.02845" y1="156.01146" x1="38.02845" stroke="#000" fill="none"/>
+  <line stroke-width="NaN" id="svg_68" y2="252.01265" x2="122.02845" y1="147.01265" x1="38.02845" stroke="#000" fill="none"/>
+  <line stroke-width="NaN" id="svg_69" y2="57.01067" x2="118.02845" y1="123.01067" x1="33.02845" stroke="#000" fill="none"/>
+  <line stroke-width="NaN" id="svg_70" y2="60.01027" x2="118.02845" y1="126.01027" x1="33.02845" stroke="#000" fill="none"/>
+  <line stroke-width="NaN" id="svg_72" y2="63.00988" x2="118.02845" y1="129.00988" x1="33.02845" stroke="#000" fill="none"/>
+  <line stroke-width="NaN" id="svg_73" y2="66.00948" x2="118.02845" y1="132.00948" x1="33.02845" stroke="#000" fill="none"/>
+  <line stroke-width="NaN" id="svg_74" y2="69.00909" x2="118.02845" y1="135.00909" x1="33.02845" stroke="#000" fill="none"/>
+  <line id="svg_75" y2="51.0108" x2="195.04518" y1="117.0108" x1="110.04518" stroke="#000" fill="none"/>
+  <line id="svg_76" y2="54.01041" x2="195.04518" y1="120.01041" x1="110.04518" stroke="#000" fill="none"/>
+  <line id="svg_77" y2="57.01001" x2="195.04518" y1="123.01001" x1="110.04518" stroke="#000" fill="none"/>
+  <line id="svg_78" y2="60.00962" x2="195.04518" y1="126.00962" x1="110.04518" stroke="#000" fill="none"/>
+  <line id="svg_79" y2="63.00922" x2="195.04518" y1="129.00922" x1="110.04518" stroke="#000" fill="none"/>
+  <line id="svg_80" y2="66.00883" x2="195.04518" y1="132.00883" x1="110.04518" stroke="#000" fill="none"/>
+  <path id="svg_81" d="m115.04518,155.0116l84,105" opacity="undefined" stroke="#000" fill="none"/>
+  <path id="svg_82" d="m115.04518,152.012l84,105" opacity="undefined" stroke="#000" fill="none"/>
+  <path id="svg_83" d="m115.04518,149.0124l84,105" opacity="undefined" stroke="#000" fill="none"/>
+  <path id="svg_84" d="m115.04518,146.0128l84,105" opacity="undefined" stroke="#000" fill="none"/>
+  <path stroke="#000" id="svg_85" d="m238.76877,10.90398l-26.27104,1.75626l0,20.48972l28.41561,-2.9271l4.82529,-25.17309l-40.74691,1.75627l2.68072,40.39401l38.60234,-5.85421l3.21686,-33.36896l7.50601,0l-2.14458,65.56709l-36.45776,3.51252l-1.07229,-8.7813l31.09633,-2.92711" opacity="NaN" fill="none"/>
+  <path stroke="#000" id="svg_86" d="m235.20647,83.03924l-33.19368,61.00751l18.83966,-24.6772l24.22242,2.05644l17.94253,19.19337l-21.53104,-54.15273l-17.04541,27.4191l20.63392,0" opacity="NaN" fill="none"/>
+  <path stroke="#000" id="svg_87" d="m201.02937,205.37108l26.43953,-71.33803c3.95074,16.00106 7.90147,32.00211 11.85221,48.00316l7.29366,-46.00302l21.42514,72.00473l-5.01439,0l-13.67562,-48.66987l-5.0144,36.00237l-11.39635,0l-3.64683,-35.33566l-28.26295,45.33632z" opacity="NaN" fill="none"/>
+  <path stroke="#000" id="svg_88" d="m217.04993,214.02199l44.98283,0.85729l0.8105,4.28647l-36.87782,1.28594l1.21575,9.85887l36.87782,0.42865l-1.621,9.85887l-33.63581,-2.14323l2.83675,12.8594l30.79906,6.85835l-2.43151,6.85835l-40.52507,-3.42918l-2.4315,-47.57978z" opacity="NaN" fill="none"/>
+  <path transform="rotate(20 151.461 26.7839)" stroke="#000" id="svg_89" d="m121.3223,20.15269l23.78804,0l7.35068,-21.4593l7.35069,21.4593l23.78804,0l-19.24489,13.26243l7.35106,21.45929l-19.2449,-13.26278l-19.24489,13.26278l7.35107,-21.45929l-19.2449,-13.26243z" stroke-dasharray="5,2,2,2" fill="#000000"/>
+  <text filter="url(#svg_90_blur)" stroke-dasharray="5,2,2,2" font-style="normal" font-weight="bold" fill="#000000" x="31.38594" y="49.59776" id="svg_90" font-size="24" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" stroke="#000" transform="matrix(1.16382 0 0 1.53377 -26.6356 -33.0022)">KK游戏</text>
+ </g>
+ <defs>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_1_blur">
+   <feGaussianBlur stdDeviation="0.1" in="SourceGraphic"/>
+  </filter>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_90_blur">
+   <feGaussianBlur stdDeviation="8" in="SourceGraphic"/>
+  </filter>
+ </defs>
+</svg>

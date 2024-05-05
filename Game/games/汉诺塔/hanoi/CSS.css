@@ -1,0 +1,106 @@
+body {
+    background-color: #EEE;
+}
+
+#window {
+    text-align: center;
+    width: 650px;
+    margin: 1.8em auto;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    background-color: #FFF;
+    user-select: none;
+    -webkit-user-select: none;
+    box-shadow: 0 0 3px #CCC;
+}
+
+.game_area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1.2em 1.2em 0.5em 1.2em;
+}
+
+#canvas {
+    background-color: transparent;
+    box-shadow: inset 1px 1px 3px #EEE, inset -1px 0 3px #EEE;
+}
+
+.desk {
+    display: flex;
+    color: #555;
+}
+
+.desk div {
+    flex: 0 0 33.3333%;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+}
+
+.desk div:nth-child(2) {
+    box-sizing: border-box;
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+}
+
+#tools {
+    display: flex;
+    margin: 0 1.2em 0.5em 1.2em;
+    justify-content: space-between;
+    align-items: center;
+    color: #666;
+    font-size: 1em;
+}
+
+#tools_list {
+    display: flex;
+}
+
+#floor_select {
+    display: flex;
+}
+
+.floor {
+    margin-right: 0.4em;
+}
+
+#input_floor {
+    width: 4em;
+    text-align: center;
+}
+
+#bt_run {
+    background-color: rgb(74, 151, 202);
+    border: 1px solid rgb(147, 165, 231);
+    color: #FFF;
+    width: 5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    border-radius: 3px;
+}
+
+#bt_run:hover {
+    background-color: rgb(112, 186, 235);
+    cursor: pointer;
+}
+
+#bt_run:active {
+    background-color: rgb(74, 151, 202);
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    color: #999;
+}
+
+.top-bar a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #999;
+}
+
+.top-bar a:hover {
+    color: orange;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+     <meta charset="utf-8">
+     <title>数独网页版</title>
+     <style type="text/css">
+          body {
+               background-color: #202020;
+               color: silver;
+
+          }
+
+          a {
+               color: blue;
+          }
+
+
+          #okBtn {
+               background: rgb(6, 31, 151);
+               color: #fff;
+
+
+               width: 100px;
+
+
+               padding: 10px 30px;
+               border: 5px solid #fff;
+               border-radius: 50px;
+
+               outline: none;
+               cursor: pointer;
+               margin-top: 10px;
+          }
+
+          #info {
+
+
+               display: none;
+               z-index: 5;
+
+               border-radius: 5;
+               color: #FFF;
+               border: 0px solid #FFF;
+               background-color: rgba(106, 124, 197);
+               box-shadow: 0 0 5px #000;
+
+               position: absolute;
+               margin: auto;
+               left: 0;
+               top: 0;
+               right: 0;
+               bottom: 0;
+               width: fit-content;
+               height: fit-content;
+
+               padding: 20px 40px;
+
+
+          }
+
+          #gname {
+               font-size: 50px;
+               font-weight: bold;
+               line-height: 50px;
+          }
+     </style>
+     <script>
+          var init_num = 30;
+
+     </script>
+</head>
+
+<body style="margin-top:0">
+
+
+
+
+
+     <a href="../">返回</a>
+     <span style="float:right">
+          夜间<input type="checkbox" id="bcolor" onclick="redraw()" checked></span>
+
+
+     <center>
+          <div>
+               空格数<input type="number" id="knum" style="width:3rem;text-align:center"></input>
+
+               <input type="button" value="开始" onclick="start();toAlign();" id="startbtn"></input>
+          </div>
+
+          <div>
+               <canvas id="canA"></canvas>
+          </div>
+          <div style="margin-top:5px;">
+               <canvas id="canB"></canvas>
+          </div>
+
+          <div id="info">
+
+
+
+               <div id=gname>欢迎</div>
+
+
+               <input id="okBtn" type="button" value="确定" onclick="ok();">
+
+
+
+
+          </div>
+
+
+
+
+
+          <br><br>
+          <div style="text-align: left;width:85%;padding:20px;">
+
+               数独规则：格子数为9*9，填入值为1到9的数字。每一行、每一列不能有重复的数字；每一个九宫格内不能有重复的数字。当所有空格都填满时为成功。
+               <br><br>
+               点击（方格内的或下方的）黑色数字来填入相应的数字。填入的数字为绿色（夜间模式下为黄色）。重复点击填入的数字则删除。橙色为已完成数字。
+
+               <br><br>
+               设置空格数调节难度。空格越多难度越高。点击按钮新开一局。
+               <br><br>
+
+          </div>
+     </center>
+     <script src="shudu.1.7.js"></script>
+
+</body>
+
+</html>
