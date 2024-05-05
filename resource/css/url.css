@@ -1,0 +1,18 @@
+/* <!DOCTYPE html>
+<html>
+<head>
+  <style> */
+:root {
+    --long-link: url('https://www.example.com/long-link');
+}
+
+a {
+    background-image: var(--long-link);
+}
+
+/* </style>
+</head>
+<body>
+  <a href="#">点击我</a>
+</body>
+</html> */

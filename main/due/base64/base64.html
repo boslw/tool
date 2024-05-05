@@ -1,0 +1,165 @@
+<html><head>
+
+
+
+
+
+<link href="./css/style.css" rel="stylesheet" type="text/css">
+<script>
+var base64Chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/".split("");
+
+function byteCode(codes){
+	var codeStr = '', binStr;
+	for(var i=0; i<codes.length; i+=2){
+		binStr = parseInt(codes.slice(i,i+2),16).toString(2);
+		if(binStr.length<8){
+			binStr = ('0000000'+binStr).slice(-8);
+		}
+		codeStr += binStr;
+	}
+	return codeStr
+}
+
+function base64encode(str){
+	var bb = byteCode(charToUtf8(str)), i, b6=[], x, base64='', n;
+	for(i=0;i<bb.length;i+=6){
+		b6.push(bb.slice(i,i+6));
+	}
+	for(x in b6){
+		if(Number(x)+1==b6.length){
+			b6[x] = (b6[x]+'00000').slice(0,6)
+		}
+		base64 += base64Chars[parseInt(b6[x],2)]
+	}
+	if(bb.length%24!=0){
+		n = (24-bb.length%24)/8;
+		if(n==1) base64 += '=';
+		else if(n==2) base64 += '==';
+	}
+	return base64;
+}
+
+function base64decode(str){
+	var bc = str.replace(/=/g,'').split(""), y, z, c, b, bs='';
+	for(y in bc){
+		c = '';
+		for(z in base64Chars){
+			if(bc[y]==base64Chars[z]){
+				c = z;
+				break;
+			}
+		}
+		if(c == '') return '编码有误';
+		b = Number(c).toString(2);
+		if(b.length<6){
+			b = ('00000'+b).slice(-6)
+		}
+		bs += b 
+	}
+	var j = Math.floor(bs.length/8), i, ha='', hb;
+	for(i=0;i<j;i++){
+		hb = parseInt(bs.slice(i*8,i*8+8),2).toString(16);
+		if(hb.length<2) hb=('00'+hb).slice(-2);
+		ha += '%'+hb;
+	}
+	return decodeURIComponent(ha)
+}
+
+function charToUtf8(text){
+	var index = 0, output = '';
+	while (index < text.length) {
+		var character = text.charAt(index), charCode = text.charCodeAt(index);
+		if (charCode >= 0xD800 && charCode <= 0xDBFF) {
+			output += encodeURI(character + text.charAt(++index)).replace(/%/g,'');
+		} else {
+			if(charCode > 127)
+			output += encodeURI(character).replace(/%/g,'');
+			else{
+				var asc = charCode.toString(16).toUpperCase();
+				if(asc.length<2) asc='0'+asc;
+				output += asc;
+			}
+		}
+		++index
+	}
+	return output;
+}
+
+function $(id){return document.getElementById(id)}
+
+function doEncode() {
+	var src = $('src').value;
+	$('dest').value = base64encode(src);
+	copybtn()
+}
+
+function doDecode() {
+	var src = $('src').value;
+	var opts = $('opt');
+
+	if(opts.checked)
+	$('dest').value = charToUtf8(base64decode(src));
+	else
+	$('dest').value = base64decode(src);
+	copybtn()
+}
+
+function copybtn(){
+	if($('dest').value=='') $('copy').style.display='none';
+	else $('copy').style.display='inline-block'
+}
+
+function copy(id) {
+	var t = $(id).value;
+	if (t == '') return false;
+	$('copytext').innerHTML = t.replace(/\n/g, "<br>");
+	var element = $('copytext'), error = '浏览器不支持，请手动复制！';
+	if (document.body.createTextRange) {
+		var range = document.body.createTextRange();
+		range.moveToElementText(element);
+		range.select()
+	} else if (window.getSelection) {
+		var selection = window.getSelection(),
+		range = document.createRange();
+		range.selectNodeContents(element);
+		selection.removeAllRanges();
+		selection.addRange(range)
+	} else return alert(error);
+	try {
+		if (document.execCommand('copy', false, null)) {
+			$('copytip').innerHTML = '已复制！';
+		} else alert(error)
+	} catch(err) {
+		alert(error)
+	}
+}
+document.addEventListener("click", function(e){
+	if(e.target.id != 'copy') $('copytip').innerHTML = ''
+}, false);
+</script>
+
+<script src="/js/head.js"></script>
+</head>
+<body> 
+	<a href="../../index.html" class="home"><b>返回首页</b></a>
+	<!-- <h1>瑞锦工具箱</h1> -->
+<div class="main" style="height: auto !important;">
+	<div class="title">
+		<h1><b>瑞锦工具箱</b></h1>
+	<h2>Base64编码转换</h2>
+	</div> 
+      <textarea id="src" name="src"></textarea>
+	  <div style="margin:10px 0px;">
+      <input type="button" onclick="$('src').value='';$('src').focus();$('dest').value='';copybtn()" value="清空">
+	  <input onclick="doEncode();" type="button" value="加密" name="encode">
+	  <input onclick="doDecode();" type="button" value="解密" name="decode">
+	  <span style="display:inline-block;"><label><input type="checkbox" value="hex" name="opt" id="opt">解密为UTF-8字节流</label></span>
+	  </div>
+      <textarea name="dest" readonly="" id="dest"></textarea>
+      <input type="button" id="copy" onclick="copy('dest')" value="复制">
+      <span id="copytip"></span>
+      <div id="copytext"></div>
+      <!-- <p>Base编码系列：<a href="/bianma/base64.htm" style="color:blue">Base64</a> <a href="/bianma/base.php" style="color:blue">Base32</a> <a href="/bianma/base.php?type=16" style="color:blue">Base16</a></p></div> -->
+
+
+</body></html>

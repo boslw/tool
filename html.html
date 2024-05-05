@@ -1,0 +1,152 @@
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="resource/image/link.png">
+    <title>Rungen Web Site</title>
+    <style>
+        img#musicico {
+            animation-name: music;
+            /*这个名称是下方的动画名称*/
+            animation-timing-function: linear;
+            /*linear代表均速旋转8*/
+            animation-duration: 3s;
+            /*3秒旋转完一圈*/
+            animation-iteration-count: infinite;
+            /*旋转无数次*/
+        }
+
+        /* 实现动画的旋转 */
+        @keyframes music {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            50% {
+                transform: rotate(180deg);
+            }
+
+            100% {
+                transform: rotate(365deg);
+            }
+        }
+    </style>
+    <style>
+        .button {
+            display: inline-block;
+            border-radius: 4px;
+            background-color: #1e50f4;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 18px;
+            padding: 8px;
+            width: 110px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 3px;
+        }
+
+        .button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.8s;
+        }
+
+        .button span:after {
+            content: '<<';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            left: -60px;
+            transition: 0.5s;
+        }
+
+        .button:hover span {
+            padding-left: 25px;
+        }
+
+        .button:hover span:after {
+            opacity: 1;
+            left: 0;
+        }
+    </style>
+    <style>
+        .left-toolbox {
+
+            position: relative;
+
+            display: flex;
+            flex-wrap: nowrap;
+
+            align-items: center;
+
+            height: 64px;
+            box-sizing: border-box;
+            background: rgba(19, 156, 197, 0.5);
+
+        }
+    </style>
+    <!-- <style>
+        body {transform: scale(1.5) translate(100%, 100%); }
+
+        </style> -->
+    <script src="javascript/js.js">
+
+
+    </script>
+</head>
+
+<body>
+
+    <script>
+        function changeImage() {
+            element = document.getElementById('demo')
+            element.src = "./RungenSite/index.html";
+        }
+    </script>
+    <!-- 导入音乐，并且给音乐设置id，后面要用到。 -->
+    <!-- <audio id="music" autoplay="autoplay" loop="loop" src="./resource/Music/China-x.MP3"></audio> -->
+    <audio id="music" loop="loop" src="./resource/Music/China-x.MP3"></audio>
+
+    <div style="position:fixed;height: 20px;line-height: 20px;top:20%;left: 5px;">
+        <img id="musicico" onclick="musiccc()" src="./resource/image/音乐ico.png" width="60px"
+            style="animation-play-state: paused;">
+    </div>
+    <!-- 导入音乐图标，并且给音乐图标设置id，后面还是要用到。 -->
+
+    </div>
+
+    <iframe src="./RungenSite/index.html" width=100% height=100% style="border:0px;" frameborder="0" id="demo"
+        name="demo_iframe" title="iframe"></iframe>
+
+    </iframe>
+
+    <div style="position:fixed;height: 20px;line-height: 200px;top:5%;left: 8px;">
+        <button class="button" style="vertical-align:middle" onclick="changeImage()"><span>Back </span></button>
+
+    </div>
+
+    <script>
+        // 动画旋转
+        var music = document.getElementById('music')    //获取音乐
+        var musicico = document.getElementById('musicico')   //获取音乐图标
+        var tem = false  //设置一个变量，用来控制音乐是否在播放。
+        //定义一个函数，当用户单击的时候触发这个函数，从而实现音乐的暂停与播放。
+        function musiccc() {
+            //tem用来控制音乐当前是否在播放。true代表音乐正在播放，false代表音乐当前正在处于暂停的状态。
+            if (tem == false) {
+                music.play()  //播放音乐
+                tem = true
+                document.getElementById('musicico').style.animationPlayState = 'running'  //播放音乐图标
+            } else {
+                music.pause()  //暂停音乐
+                tem = false
+                document.getElementById('musicico').style.animationPlayState = 'paused'  //暂停音乐图标
+            }
+        }
+    </script>
+</body>
+
+</html>

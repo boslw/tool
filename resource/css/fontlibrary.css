@@ -1,0 +1,20 @@
+/* 公用字体库 */
+@font-face {
+    font-family: 'monaco';
+    src: url('../ttf/Monaco.ttf') format('monaco'),
+}
+
+@font-face {
+    font-family: 'Stkaiti';
+    src: url('../ttf/Stkaiti.ttf') format('Stkaiti');
+}
+
+@font-face {
+    font-family: 'vag936';
+    src: url('../ttf/vga936.fon') format('vag936');
+}
+
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('../ttf/vga936.fon') format('Stkaii');
+}
